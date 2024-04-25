@@ -1,0 +1,185 @@
+.container{
+  background-image:url(../king.jpg);
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+}
+
+.image{
+  width: auto;
+  max-height: max-content;
+  background-color: black;
+
+}
+.prince{
+  padding-left: 150px;
+}
+.phone{
+  padding-right: 200px;
+  
+}
+
+.contact{
+  width: 800px;
+  height: 150px;
+  color:white;
+  background-color: black;
+ 
+}
+.started{
+  padding-bottom: 15px;
+  padding-top: 20px;
+
+}
+
+.Upload{
+  padding-left: 150px;
+}
+
+.main{
+  color: white;
+  width: auto;
+  height: 500px;
+}
+
+.companies{
+  display: inline-block;
+}
+.Jumia{
+  color: darkgreen;
+  width: 550px;
+  height: 100px;
+  text-align: center;
+  background-color: beige;
+  padding-right: 30px;
+}
+.pajamas{
+  color: darkgreen;
+  width: 550px;
+  height: 100px;
+  text-align: center;
+  background-color: beige;
+}
+
+.safaricom{
+  color: darkgreen;
+  width: 550px;
+  height: 100px;
+  text-align: center;
+  background-color: beige;
+}
+
+.kplc{
+  color: darkgreen;
+  text-align: center;
+  width: 550px;
+  height: 100px;
+  background-color: beige;
+}
+
+.home{
+  background-position: center;
+  background-size: cover;
+  background-color: beige;
+  text-align: center;
+
+}
+
+h2{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+    margin-top: 0px;
+}
+
+
+.body{
+  padding: 50px;
+}
+
+.p1{
+ font-size: 15px;
+  font-weight: 10px;
+}
+
+.p2{
+  font-size: 20px; 
+  font-weight: 7px;
+}
+
+.p3{
+  font-style: montserrat;
+  font-size: 30px;
+  color: white;
+  font-weight: 20px;
+}
+
+.employee{
+  text-size-adjust: 25px;
+  padding-left: 100px;
+}
+
+.employer{
+  padding-bottom: 50px;
+}
+
+
+button{
+  size: 20px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  width:100px;
+  height: 40px;
+}
+
+.king1{
+  width: 300px;
+  height: 35px;
+}
+
+.king2{
+  width: 300px;
+  height: 35px;
+}
+.king3{
+  width: 300px;
+  height: 35px;
+}
+
+.sign.box{
+    width: 100px;
+    border: black;
+    height: 200px;
+    position: relative;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-spacing: 20px;
+}
+
+.input_group{
+  width: 100px;
+  height: 50px;
+  display: inline;
+ 
+
+}
+
+.social{  
+    transform: translate(-50%,-50%);
+    display: inline;
+    border-spacing: 20px;
+}
+
+
+
+
+
+
+
+
+

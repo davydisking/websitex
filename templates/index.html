@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+<div class="home">
+    <h2 ><i>FreQuencY</i></h2>
+        <p class="p1"><i>We’re unlocking community knowledge in a new way.</i></p>
+        <p class="p2">For the latest Jobs that match your profile, Sign Up
+            for job alerts and be first in line.</p>
+
+</div>
+
+<div class="container">
+    <div align="center", class="started">
+        <button>Get Started</button>
+    </div>
+    <div class="sign.box" , align="center">
+
+        <form>
+            <div class="input_group">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input class="king1" , type="text" placeholder="Name">
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input class="king2" type="Email" placeholder="Email">
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input class="king3" type="password" placeholder="password">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="body">
+        <h1>About Us</h1>
+        <p>FreQuencY WORLD,
+            we are dedicated to connecting every individual in Kenya with their dream job. <br> Our platform is designed
+            to be user-friendly, efficient, and tailored to meet the diverse needs of job seekers and employers alike.
+        </p>
+        <div>
+            <button><a href="{{ url_for('jobs') }}">see jobs</a></button>
+        </div>
+    </div>
+
+    <div class="Upload">
+        <h1>Services</h1>
+        <p>FreQuencY, a professional networking platform used for recruitment purposes. <br> It provides valuable
+            insights and best practices for posting job vacancies online.</p>
+        <div>
+            <button><a href="{{ url_for('upload') }}">upload</a></button>
+        </div>
+    </div>
+
+<div class="main">
+        <p align="center", class="p3">Your City has it all, so we're making <br> It easy to share it. </p>
+
+<center>
+        <div class="contact",align="center">
+            <P> <i>CONTACT US</i></P>
+            <div>Trusted by over 1 MILLION Kenyans</div>
+            <div align="right", class="phone">
+            Phone: <br> +254 700-3498-21 <br> +254 700-3498-21
+        </div>
+            <div align="left", class="prince">
+                Email: <br> Princeavy40@gmail.com 
+            </div>
+        </div>
+    </center>
+    <div class="image"></div>
+</div>
+<button>Learn More</button>
+
+
+
+<div class="container companies">
+    <h1 align="center">Companies hiring</h1>
+    <button class="pajamas">PAJAMAS
+        <p> Join our development team to create groundbreaking software solutions.</p>
+        <button>Apply</button>
+    </button>
+    <button class="safaricom">SAFARICOM
+        <p> Be part of projects that challenge and inspire you.</p>
+        <button>Apply</button>    
+    </button>
+    <button class="kplc">KPLC
+        <p> If you are passionate about technology, we want to hear from you.</p>
+        <button>Apply</button>
+    </button>
+
+    <button class="Jumia">JUMIA
+        <p> Ni Jumia tu!</p>
+        <button>Apply</button>
+    </button>
+
+    <div class="employee">
+        <h1>Employee</h1>
+        Personal traits and attributes. <br>Work experience. <br> Professional accreditations and certifications. <br> Physical ability. <br> Specific knowledge.
+    </div>
+
+    <div class="employer">
+        <h1 align="center">Employer</h1>
+        <div align="center">
+        Offers flexible work schedules. <br> Great communication skills. <br> Financial benefits. <br> Promotes empowerment. <br> Supportive.
+    </div> 
+
+    <div class="Work">
+        <h1>Work with us</h1>
+        <div>
+            Careers <br> Advertisers
+        </div>
+    </div>
+    
+    </div>
+
+
+    <div>Trusted in Kenya.<br></div>
+
+    <center>
+        <div class="social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+    </center>
+    <div class="Location" , align="center">Nairobi Kenya</div>
+    <script src="https://kit.fontawesome.com/b083fddeb6.js" crossorigin="anonymous"></script>
+    
+    </div>
+            
+ 
+</div>
+
+{% endblock body %}
