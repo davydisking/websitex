@@ -1,22 +1,120 @@
+
+
 .container{
   background-image:url(../king.jpg);
   width: 100%;
   height: fit-content;
   background-size: cover;
 }
+.star{
+  size-adjust: 100px;
+  padding: 40px 50px;
+}
 
-.image{
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+
+
+  .search{
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;
+
+  }
+  .bar{
+    width: 100%;
+    max-width: 700px;
+    background: #0b360d;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 15px;
+  }
+  .profile{
+    color: #0b360d;
+    font-style: oblique;
+    padding-top: 30px;
+  }
+  .bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    padding: 15px 15px;
+    font-size: 15px;
+
+  }
+  .bar i{
+    width: 25px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    cursor: pointer;
+    align-content: center;
+    size: 30px;
+
+    
+
+
+  }
+
+.container2{
+  height: auto;
   width: auto;
-  max-height: max-content;
-  background-color: black;
+  background-color: rgb(13, 34, 10);
+}
+
+.display{
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #0b360d;
+  padding: 10px
 
 }
+.posting{
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.apply{
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.forbutton{
+  height: 100px;
+  width: 100px;
+  background-color: beige;
+
+}
+
+
 .prince{
   padding-left: 150px;
 }
 .phone{
   padding-right: 200px;
-  
 }
 
 .contact{
@@ -33,7 +131,7 @@
 }
 
 .Upload{
-  padding-left: 150px;
+  padding-left: 100px;
 }
 
 .main{
@@ -45,37 +143,17 @@
 .companies{
   display: inline-block;
 }
-.Jumia{
-  color: darkgreen;
-  width: 550px;
-  height: 100px;
-  text-align: center;
-  background-color: beige;
-  padding-right: 30px;
-}
-.pajamas{
-  color: darkgreen;
-  width: 550px;
-  height: 100px;
-  text-align: center;
-  background-color: beige;
-}
+
+
 
 .safaricom{
   color: darkgreen;
-  width: 550px;
+  width: 650px;
   height: 100px;
   text-align: center;
   background-color: beige;
 }
 
-.kplc{
-  color: darkgreen;
-  text-align: center;
-  width: 550px;
-  height: 100px;
-  background-color: beige;
-}
 
 .home{
   background-position: center;
@@ -117,8 +195,10 @@ h2{
 
 .employee{
   text-size-adjust: 25px;
-  padding-left: 100px;
+   padding-left: 100px;
 }
+
+
 
 .employer{
   padding-bottom: 50px;
@@ -131,7 +211,6 @@ button{
   background-size: cover;
   border-radius: 25px;
   flex-direction: row;
-  justify-content: center;
   width:100px;
   height: 40px;
 }
@@ -173,6 +252,10 @@ button{
     transform: translate(-50%,-50%);
     display: inline;
     border-spacing: 20px;
+}
+
+.Work{
+  padding-left: 1000px;
 }
 
 
