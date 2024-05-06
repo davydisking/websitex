@@ -1,8 +1,12 @@
-
+.up{
+  width: 100%;
+  height: 1000px;
+  background-image: url(../undraw_Job_hunt_re_q203.png);
+}
 
 .container{
   background-image:url(../king.jpg);
-  width: 100%;
+  width: fit-content;
   height: fit-content;
   background-size: cover;
 }
@@ -21,7 +25,7 @@
 }
 
 /* On mouse-over */
-.btn:hover {background: #eee;}
+.btn:hover {background: #eee;}6/
 
 .success {color: green;}
 .info {color: dodgerblue;}
@@ -31,13 +35,14 @@
 
 
 
-  .search{
+.search{
     width: 100%;
     height: 150px;
     padding-top: 40px;
 
   }
-  .bar{
+
+.bar{
     width: 100%;
     max-width: 700px;
     background: #0b360d;
@@ -46,20 +51,22 @@
     border-radius: 60px;
     padding: 10px 15px;
   }
-  .profile{
+
+.profile{
     color: #0b360d;
     font-style: oblique;
     padding-top: 30px;
   }
-  .bar input{
+
+.bar input{
     background: transparent;
     flex: 1;
     border: 0;
     padding: 15px 15px;
     font-size: 15px;
-
   }
-  .bar i{
+  
+.bar i{
     width: 25px;
     border-radius: 50%;
     width: 60px;
@@ -68,10 +75,6 @@
     cursor: pointer;
     align-content: center;
     size: 30px;
-
-    
-
-
   }
 
 .container2{
@@ -88,6 +91,7 @@
   padding: 10px
 
 }
+
 .posting{
   padding: 20px;
   font-size: 15px;
@@ -97,6 +101,7 @@
   align-items: center;
   justify-content: center
 }
+
 .apply{
   padding-top: 60px;
   padding-left: 80px;
@@ -109,10 +114,12 @@
 
 }
 
-
 .prince{
-  padding-left: 150px;
+ padding-left: 900px;
+  color: black;
+  font-size: 18px;
 }
+
 .phone{
   padding-right: 200px;
 }
@@ -121,9 +128,10 @@
   width: 800px;
   height: 150px;
   color:white;
-  background-color: black;
+  background-color: #0b360d;
  
 }
+
 .started{
   padding-bottom: 15px;
   padding-top: 20px;
@@ -131,7 +139,7 @@
 }
 
 .Upload{
-  padding-left: 100px;
+  padding-left: 200px;
 }
 
 .main{
@@ -144,16 +152,13 @@
   display: inline-block;
 }
 
-
-
 .safaricom{
   color: darkgreen;
-  width: 650px;
+  width: 640px;
   height: 100px;
   text-align: center;
   background-color: beige;
 }
-
 
 .home{
   background-position: center;
@@ -163,14 +168,19 @@
 
 }
 
+.Million{
+  color: black;
+  font-weight: 90px;
+  padding: 30px;
+}
+
 h2{
-    font-size: 50px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 500;
     color: black;
     margin-top: 0px;
 }
-
 
 .body{
   padding: 50px;
@@ -188,9 +198,9 @@ h2{
 
 .p3{
   font-style: montserrat;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
-  font-weight: 20px;
+  font-weight: 15px;
 }
 
 .employee{
@@ -198,12 +208,9 @@ h2{
    padding-left: 100px;
 }
 
-
-
 .employer{
   padding-bottom: 50px;
 }
-
 
 button{
   size: 20px;
@@ -211,7 +218,7 @@ button{
   background-size: cover;
   border-radius: 25px;
   flex-direction: row;
-  width:100px;
+  width:90px;
   height: 40px;
 }
 
@@ -224,6 +231,7 @@ button{
   width: 300px;
   height: 35px;
 }
+
 .king3{
   width: 300px;
   height: 35px;
@@ -254,8 +262,27 @@ button{
     border-spacing: 20px;
 }
 
+.social i{
+  font-size: 25px;
+  padding: 15px;
+  
+}
+
 .Work{
   padding-left: 1000px;
+}
+
+.image{
+  padding: 60px;
+  size: 100px;
+  background-image: url(../undraw_Interview_re_e5jn.png);
+  width: auto;
+  height: 900px;
+}
+
+.footer{
+  background-color: #0b360d;
+  width: auto;
 }
 
 
