@@ -21,16 +21,16 @@
     <div class="sign.box"  align="center">
 
 
-        <form action="/index" method= "POST">
+        <form action="/get_input" method="POST">
             <div class="input_group">
-                <button class="get">Get Started</button> <br><br>    
+                <button class="get">Get Started</button><br><br>
                 <div>
                     <i class="fa-solid fa-user"></i>
-                    <input class="king1" type="name" placeholder="Name" name="name">
+                    <input class="king1" type="text" placeholder="Name" name="name">
                 </div>
                 <div>
                     <i class="fa-solid fa-envelope"></i>
-                    <input class="king2" type="Email" placeholder="Email" name="Email">
+                    <input class="king2" type="email" placeholder="Email" name="email">
                 </div>
                 <div>
                     <i class="fa-solid fa-lock"></i>
@@ -41,6 +41,24 @@
         </form>
        
     </div>
+    <table>
+        <thead>
+           <th>Id</th>
+           <th>Name</th>
+           <th>Email</th>
+           <th>Pass</th>
+         
+        </thead>
+        {% for data in users %}
+        <tbody>
+           <td>{{data.id}}</td>
+           <td>{{data.name}}</td>
+           <td>{{data.email}}</td>
+           <td>{{data.password}}</td>
+
+        </tbody>
+        {% endfor%}
+     </table>
 
     <div class="body">
         <h1>FreQuencY</h1>
