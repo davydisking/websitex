@@ -1,12 +1,13 @@
 import mysql.connector
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="Sapele10035",
-    )
+
+mydb = mysql.connector.connect(user='root', 
+                               passwrd='Sapele10035.',
+                              host='localhost',
+                              database='Frequenct.db', 
+                              )
 
 my_cursor = mydb.cursor()
-#my_cursor.execute("CREATE DATABASE Frequency_test")
+#my_cursor.execute("CREATE DATABASE Frequency_1")
 
 my_cursor.execute("SHOW DATABASES")
 for db in  my_cursor:

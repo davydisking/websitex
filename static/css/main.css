@@ -92,6 +92,19 @@
 
 }
 
+.loadimage{
+ width: auto;
+ height: fit-content;
+ color: black;
+ border-radius: 20px;
+ padding: 80px;
+ flex-direction: row;
+
+  
+ 
+
+}
+
 .posting{
   padding: 20px;
   font-size: 15px;
@@ -110,12 +123,13 @@
 .forbutton{
   height: 100px;
   width: 100px;
-  background-color: beige;
+  background-color: black;
 
 }
 
 .prince{
  padding-left: 900px;
+ padding-top: 100%;
   color: black;
   font-size: 18px;
 }
@@ -230,12 +244,9 @@ button{
 .king2{
   width: 300px;
   height: 35px;
+  border-radius: 20px;
 }
 
-.king3{
-  width: 300px;
-  height: 35px;
-}
 
 .sign.box{
     width: 100px;
