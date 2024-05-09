@@ -22,7 +22,6 @@
 			"driver": "sqlite_jdbc",
 			"name": "Frequency.db",
 			"save-password": true,
-			"show-system-objects": true,
 			"configuration": {
 				"database": "C:\\Users\\David\\Desktop\\websitex-1\\instance\\Frequency.db",
 				"url": "jdbc:sqlite:C:\\Users\\David\\Desktop\\websitex-1\\instance\\Frequency.db",
