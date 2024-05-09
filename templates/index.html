@@ -21,7 +21,7 @@
     <div class="sign.box"  align="center">
 
 
-        <form action="/index" method= "POST">
+        <form action="/get_input" method= "POST">
             <div class="input_group">
                 <button class="get">Get Started</button><br><br>
                 <div>
@@ -41,6 +41,18 @@
         </form>
        
     </div>
+    <table>
+       
+        {% for data in users %}
+        <tbody>
+           <td>{{data.id}}</td>
+           <td>{{data.name}}</td>
+           <td>{{data.email}}</td>
+           <td>{{data.password}}</td>
+
+        </tbody>
+        {% endfor%}
+     </table>
 
     <div class="body">
         <h1>FreQuencY</h1>
