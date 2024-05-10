@@ -21,44 +21,49 @@
 <form action="/family" align="center" method="POST">
     <div>
         <i class="fa-solid fa-user"></i>
-        <input class="king1" type="Name" placeholder="Name" name="name">
+        <input class="king1" type="text" placeholder="Name" name="name">
     </div>
     <div>
         <i class="fa-solid fa-phone"></i>
-        <input class="king1" type="Phone" placeholder="Phone" phone="phone">
+        <input class="king1" type="number" placeholder="Phone" name="phone">
     </div>
     <div>
         <i class="fa-solid fa-envelope"></i>
-        <input class="king1" type="Email" placeholder="Email" email="email">
+        <input class="king1" type="email" placeholder="Email" name="email">
     </div>
     <div>
         <i class="fa-solid fa-house"></i>
-        <input class="king1" type="Company" placeholder="Company" company="company">
+        <input class="king1" type="text" placeholder="Company" name="company">
     </div>
     <div>
         <i class="fa-solid fa-location-dot"></i>
-        <input class="king1" type="Adress" placeholder="Address" address="address">
+        <input class="king1" type="password" placeholder="password" name="password">
     </div>
     <br>
     <button>JOIN</button>
 </form>
 </div>
-<form action="">
+<form action="/post_job" method="POST">
 <div class="loadimage">
+
 <div class="forbutton">
-    upload image 
+
+    <form action="/action_page_binary.asp" method="post" enctype="multipart/form-data">
+        <input type="file", name="image"> 
+      </form>
+
 </div>
 <br>
 <div>
-    Position <br>  <input type="text" class="king2" placeholder="Enter position">
+    Position <br>  <input type="text" class="king2" placeholder="Enter position" name="position">
 </div>
 <br>
 <div>
-    Payment <br>  <input type="text" class="king2" placeholder="Enter Payment">
+    Payment <br>  <input type="number" class="king2" placeholder="Enter Payment" name="payment">
 </div>
 <br>
 <div>
-    Location <br>  <input type="text" class="king2" placeholder="Enter your address">
+    Location <br>  <input type="text" class="king2" placeholder="Enter your address" name="location">
 </div>
 <br> <br>
 <button>Next</button>
